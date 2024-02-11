@@ -1,0 +1,62 @@
+:root{
+    --darkBlue: #1F2544;
+    --lightBlue: #474F7A;
+    --lightPurple: #81689D;
+    --lightSalmon: #FFD0EC;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@400;500;700&display=swap');
+
+body{
+    height: 100vh;
+    background-color: var(--lightBlue);
+
+    font-family: 'Work Sans', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 70rem;
+    height: 40rem;
+
+    background-color: var(--lightPurple);
+    border-style: solid;
+    border-width: 10px;
+    border-color: var(--darkBlue);
+    border-radius: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 0;
+}
+
+a{  
+    color: black;
+    background-color: var(--lightSalmon);
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: 700;
+
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+ 
+    padding: 3rem 5rem;
+    margin-bottom: 5rem;
+}
+
+a:hover{
+    color: var(--lightPurple    );
+}

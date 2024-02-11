@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title>Play</title>
+</head>
+<body>
+    <main>
+
+        <div id="result-popup">
+            <h2> Player Wins</h2>
+            <div class="btn-container">
+                <button class="accept"> OK </button>
+                <button class="quit"><a href="index.html"> Quit </a></button>
+            </div>
+        </div>
+
+        <section class="playarea">
+            <h1>Choose</h1>
+
+            <div class="progress-bar" data-time="5" data-label="00:000">
+
+            </div>
+
+            <div class="choices">
+                <figure id="rock">
+                    <img width="116" height="116" src="https://img.icons8.com/carbon-copy/100/rock--v2.png" alt="rock--v2"/>
+                </figure>
+                <figure id="paper">
+                    <img width="116" height="116" src="./assets/img/paper-plane-svgrepo-com.svg" alt="paper">
+                </figure>
+                <figure id="scissors">
+                    <img width="116" height="116" src="./assets/img/scissors-svgrepo-com.svg" alt="">    
+                </figure>
+            </div>
+        </section>
+
+        <section class="score">
+            <div class="computer-score">
+                <h2>Computer</h2>
+                <h2>0</h2>
+            </div>
+            <div class="player-score">
+                <h2>Player</h2>
+                <h2>0</h2>
+            </div>
+        </section>
+    </main>
+
+    <script src="progressBar.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
